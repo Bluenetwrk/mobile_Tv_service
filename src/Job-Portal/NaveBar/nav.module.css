@@ -51,7 +51,8 @@ font-size: xx-large;
 .ITwalkinWrapper{
 /* margin-left: 4%; */
 /* background-color: red; */
-width:140px;
+width:165px;
+margin-top: 6px;
     height:60px
 }
 .IwalkinLogologo{
@@ -1086,7 +1087,7 @@ cursor: pointer;
 width: 75px;
 z-index: 100;
 margin-top: 8px;
-right: 56px;
+right: 18px;
 }
 
 .EmpMobDropdownwrapperMobile ::after{
@@ -1179,18 +1180,21 @@ position: absolute;
 
 @media (max-width :475px){
     .MobJobseekerDropdownwrapperlogin{
-       right:-212px;
-    }    
+        right: -248px;
+        top: 67px;
+    }   
 }
 @media (max-width :376px){
     .MobJobseekerDropdownwrapperlogin{
-       right:-163px;
-    }    
+        right: -194px;
+        top: 65px;
+    }
 }
 @media (max-width :320px){
     .MobJobseekerDropdownwrapperlogin{
-       right:-113px;
-    }    
+        right: -138px;
+        top: 64px;
+    }
 }
 /* 
 @media (min-width :460px){
