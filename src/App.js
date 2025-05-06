@@ -956,12 +956,13 @@ const [showMobileSearchIcon, setShowMobileSearchIcon]= useState(true)
   
   const sortedFilteredDriveJobs = processDriveJobs(driveJobs);
      const options = [
-      { value: "bangalore", label: "Bangalore, India", img:location},
-      { value: "san Francisco", label: "San Francisco, USA", img:location},
-      { value: "new york", label: "New York, USA", img:location},
-      { value: "sydney", label: "Sydney, Australia", img:location},
-      { value: "london", label: "London, UK", img:  location},
-      { value: "berlin", label: "Berlin, Germany", img:location},
+      { value: "Banglore", label: "Banglore,india", img:location},
+      { value: "Prestige Leela Residences", label: "Prestige Leela Residences", img:location},
+      { value: "Ega Coral", label: "Ega Coral", img:location},
+      { value: "Birla Evara", label: "Birla Evara", img:location},
+      { value: "Purva Aerocity", label: "Purva Aerocity", img:location},
+      { value: "Nambiar District 25", label: "Nambiar District 25", img:  location},
+      { value: "Godrej Yeshwanthpur", label: "Godrej Yeshwanthpur", img:location},
     ];
    const [selectedlocationOption, setSelectedlocationOption] = useState(options[0]);
   return (

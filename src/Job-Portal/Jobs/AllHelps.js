@@ -13,7 +13,9 @@ function AllHelps({ Active, getjobs, setJobs, setActive, count, setCount,nopageF
   const [Contact, setContact] = useState([]);
   const screenSize = useScreenSize();
   const[jobsPerPageValue,setJobsPerPageValue]=useState(10);
-
+  const [currentPage, setCurrentPage] = useState(1)
+  const [recordsPerPage, setrecordsPerPage] = useState(10)
+  
   const lastIndex = currentPage * recordsPerPage //10
   const firstIndex = lastIndex - recordsPerPage //5
   // const records = jobs.slice(firstIndex, lastIndex)//0,5
@@ -23,8 +25,8 @@ function AllHelps({ Active, getjobs, setJobs, setActive, count, setCount,nopageF
   const navigate = useNavigate();
 //  let recordsperpage = JSON.parse(sessionStorage.getItem("recordsperpageSearchHome"))
 
-  const [currentPage, setCurrentPage] = useState(1)
-  const [recordsPerPage, setrecordsPerPage] = useState(10)
+
+
 
 
   function handleRecordchange(e) {
