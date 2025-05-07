@@ -669,7 +669,7 @@ function Nav(props) {
 
                       <div style={{  }} className={Styles.dropdownwrapperHome} ref={menuRef} >
                         <p onClick={() => { handleEmpOpen(); handleStuClose() }}>Employer Login</p>
-                        <p onClick={() => { handleStuOpen(); handleClose() }}>Diwakar/Pick Up Agents</p>
+                        <p onClick={() => { handleStuOpen(); handleClose() }}>Pick up agent</p>
                       </div>
                     </div>
 
@@ -1024,7 +1024,7 @@ className={props.ShowSideNave ? "fas fa-times" : "fas fa-bars"} ref={SimgRef} on
                          {showprofile ?
                            <div className={Styles.MobHomeDropdownwrapper} ref={menuRef} >
                              <p onClick={() => { navigate("/EmployeeLogin") }}>Employer Login </p>
-                             <p onClick={() => { navigate("/JobSeekerLogin") }}>Diwakar/Pick Up Agents</p>
+                             <p onClick={() => { navigate("/JobSeekerLogin") }}>Pick Up agent</p>
                            </div>
                            : ""}
                        </div>           
