@@ -956,7 +956,7 @@ const [showMobileSearchIcon, setShowMobileSearchIcon]= useState(true)
   
   const sortedFilteredDriveJobs = processDriveJobs(driveJobs);
      const options = [
-      { value: "Banglore", label: "Banglore,india", img:location},
+      { value: "Bangalore", label: "Bangalore,India", img:location},
       { value: "Prestige Leela Residences", label: "Prestige Leela Residences", img:location},
       { value: "Ega Coral", label: "Ega Coral", img:location},
       { value: "Birla Evara", label: "Birla Evara", img:location},
